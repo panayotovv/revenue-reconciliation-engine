@@ -1,0 +1,207 @@
+2026-04-07 19:05:21,081 - [INFO] - Starting reconciliation process
+2026-04-07 19:05:21,117 - [INFO] - Loaded 20 orders
+2026-04-07 19:05:21,145 - [INFO] - message='Request to Stripe api' method=get url=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775588121
+2026-04-07 19:05:21,630 - [INFO] - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775588121 response_code=200
+2026-04-07 19:05:21,632 - [INFO] - Loaded 0 payments from Stripe
+2026-04-07 19:05:21,632 - [WARNING] - Missing payment for order 1
+2026-04-07 19:05:21,632 - [WARNING] - Missing payment for order 2
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 3
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 4
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 5
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 6
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 7
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 8
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 9
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 10
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 11
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 12
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 13
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 14
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 15
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 16
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 17
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 18
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 19
+2026-04-07 19:05:21,633 - [WARNING] - Missing payment for order 20
+2026-04-07 19:05:21,633 - [INFO] - Reconciliation completed
+2026-04-07 19:05:21,634 - [INFO] - Total orders: 20
+Matched: 0
+Mismatched: 0
+Missing: 20
+Extra: 0
+Match rate: 0.00%
+
+2026-04-07 19:05:21,634 - [WARNING] - Low confidence matches: 20
+CRITICAL: 20 missing payments
+
+2026-04-07 19:05:21,898 - [INFO] - Low confidence: 20
+2026-04-07 19:05:21,900 - [INFO] - Missing payments: 20
+2026-04-07 19:05:21,901 - [INFO] - Results exported to report.csv
+2026-04-07 19:05:21,901 - [INFO] - Reconciliation process finished
+2026-04-07 19:06:33,855 - [INFO] - Starting reconciliation process
+2026-04-07 19:06:33,889 - [INFO] - Loaded 20 orders
+2026-04-07 19:06:33,918 - [INFO] - message='Request to Stripe api' method=get url=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775579793
+2026-04-07 19:06:35,550 - [INFO] - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775579793 response_code=200
+2026-04-07 19:06:35,573 - [INFO] - Loaded 62 payments from Stripe
+2026-04-07 19:06:35,573 - [WARNING] - Amount mismatch for order 8
+2026-04-07 19:06:35,573 - [WARNING] - Amount mismatch for order 17
+2026-04-07 19:06:35,573 - [INFO] - Reconciliation completed
+2026-04-07 19:06:35,574 - [INFO] - Total orders: 20
+Matched: 18
+Mismatched: 2
+Missing: 0
+Extra: 42
+Match rate: 90.00%
+
+2026-04-07 19:06:35,574 - [WARNING] - Low confidence matches: 42
+
+2026-04-07 19:06:35,904 - [INFO] - Low confidence: 42
+2026-04-07 19:06:35,904 - [INFO] - Missing payments: 0
+2026-04-07 19:06:35,905 - [INFO] - Results exported to report.csv
+2026-04-07 19:06:35,905 - [INFO] - Reconciliation process finished
+2026-04-07 19:28:49,990 - [INFO] - Starting reconciliation process
+2026-04-07 19:28:50,047 - [INFO] - Loaded 20 orders
+2026-04-07 19:28:52,112 - [INFO] - message='Request to Stripe api' method=get url=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581130
+2026-04-07 19:28:53,943 - [INFO] - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581130 response_code=200
+2026-04-07 19:28:53,963 - [INFO] - Loaded 62 payments from Stripe
+2026-04-07 19:28:53,963 - [WARNING] - Amount mismatch for order 8
+2026-04-07 19:28:53,963 - [WARNING] - Amount mismatch for order 17
+2026-04-07 19:28:53,963 - [INFO] - Reconciliation completed
+2026-04-07 19:28:53,963 - [INFO] - Total orders: 20
+Matched: 18
+Mismatched: 2
+Missing: 0
+Extra: 42
+Match rate: 90.00%
+
+2026-04-07 19:28:53,963 - [WARNING] - Low confidence matches: 42
+
+2026-04-07 19:28:54,290 - [INFO] - Low confidence: 42
+2026-04-07 19:28:54,291 - [INFO] - Missing payments: 0
+2026-04-07 19:28:54,292 - [INFO] - Results exported to report.csv
+2026-04-07 19:28:54,292 - [INFO] - Reconciliation process finished
+2026-04-07 19:29:21,499 - [INFO] - Starting reconciliation process
+2026-04-07 19:29:21,557 - [INFO] - Loaded 20 orders
+2026-04-07 19:29:21,659 - [INFO] - message='Request to Stripe api' method=get url=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581161
+2026-04-07 19:29:23,345 - [INFO] - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581161 response_code=200
+2026-04-07 19:29:23,366 - [INFO] - Loaded 62 payments from Stripe
+2026-04-07 19:29:23,366 - [WARNING] - Amount mismatch for order 8
+2026-04-07 19:29:23,366 - [WARNING] - Amount mismatch for order 17
+2026-04-07 19:29:23,366 - [INFO] - Reconciliation completed
+2026-04-07 19:29:23,366 - [INFO] - Total orders: 20
+Matched: 18
+Mismatched: 2
+Missing: 0
+Extra: 42
+Match rate: 90.00%
+
+2026-04-07 19:29:23,366 - [WARNING] - Low confidence matches: 42
+
+2026-04-07 19:29:23,676 - [INFO] - Low confidence: 42
+2026-04-07 19:29:23,677 - [INFO] - Missing payments: 0
+2026-04-07 19:29:23,678 - [INFO] - Results exported to report.csv
+2026-04-07 19:29:23,678 - [INFO] - Reconciliation process finished
+2026-04-07 19:35:44,632 - [INFO] - Starting reconciliation process
+2026-04-07 19:35:44,677 - [INFO] - Loaded 20 orders
+2026-04-07 19:35:44,761 - [INFO] - message='Request to Stripe api' method=get url=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581544
+2026-04-07 19:35:46,547 - [INFO] - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581544 response_code=200
+2026-04-07 19:35:46,570 - [INFO] - Loaded 62 payments from Stripe
+2026-04-07 19:35:46,570 - [WARNING] - Amount mismatch for order 8
+2026-04-07 19:35:46,570 - [WARNING] - Amount mismatch for order 17
+2026-04-07 19:35:46,570 - [INFO] - Reconciliation completed
+2026-04-07 19:35:46,570 - [INFO] - Total orders: 20
+Matched: 18
+Mismatched: 2
+Missing: 0
+Extra: 42
+Match rate: 90.00%
+
+2026-04-07 19:35:46,570 - [WARNING] - Low confidence matches: 42
+
+2026-04-07 19:35:46,898 - [INFO] - Low confidence: 42
+2026-04-07 19:35:46,898 - [INFO] - Missing payments: 0
+2026-04-07 19:35:46,899 - [INFO] - Results exported to report.csv
+2026-04-07 19:35:46,900 - [INFO] - Reconciliation process finished
+2026-04-07 19:38:18,469 - [INFO] - Starting reconciliation process
+2026-04-07 19:38:18,514 - [INFO] - Loaded 20 orders
+2026-04-07 19:38:18,597 - [INFO] - message='Request to Stripe api' method=get url=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581698
+2026-04-07 19:38:20,648 - [INFO] - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581698 response_code=200
+2026-04-07 19:38:20,669 - [INFO] - Loaded 62 payments from Stripe
+2026-04-07 19:38:20,669 - [WARNING] - Amount mismatch for order 8
+2026-04-07 19:38:20,669 - [WARNING] - Amount mismatch for order 17
+2026-04-07 19:38:20,670 - [INFO] - Reconciliation completed
+2026-04-07 19:38:20,670 - [INFO] - Total orders: 20
+Matched: 18
+Mismatched: 2
+Missing: 0
+Extra: 42
+Match rate: 90.00%
+
+2026-04-07 19:38:20,980 - [INFO] - Low confidence: 42
+2026-04-07 19:38:20,980 - [INFO] - Missing payments: 0
+2026-04-07 19:38:20,981 - [INFO] - Results exported to report.csv
+2026-04-07 19:38:20,981 - [INFO] - Reconciliation process finished
+2026-04-07 19:39:14,103 - [INFO] - Starting reconciliation process
+2026-04-07 19:39:14,145 - [INFO] - Loaded 20 orders
+2026-04-07 19:39:14,226 - [INFO] - message='Request to Stripe api' method=get url=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581754
+2026-04-07 19:39:15,955 - [INFO] - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581754 response_code=200
+2026-04-07 19:39:15,975 - [INFO] - Loaded 62 payments from Stripe
+2026-04-07 19:39:15,975 - [WARNING] - Amount mismatch for order 8
+2026-04-07 19:39:15,975 - [WARNING] - Amount mismatch for order 17
+2026-04-07 19:39:15,975 - [INFO] - Reconciliation completed
+2026-04-07 19:39:16,257 - [INFO] - Low confidence: 42
+2026-04-07 19:39:16,257 - [INFO] - Missing payments: 0
+2026-04-07 19:39:16,258 - [INFO] - Results exported to report.csv
+2026-04-07 19:39:16,258 - [INFO] - Reconciliation process finished
+2026-04-07 19:39:54,427 - [INFO] - Starting reconciliation process
+2026-04-07 19:39:54,468 - [INFO] - Loaded 20 orders
+2026-04-07 19:39:54,542 - [INFO] - message='Request to Stripe api' method=get url=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581794
+2026-04-07 19:39:56,180 - [INFO] - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775581794 response_code=200
+2026-04-07 19:39:56,199 - [INFO] - Loaded 62 payments from Stripe
+2026-04-07 19:39:56,199 - [WARNING] - Amount mismatch for order 8
+2026-04-07 19:39:56,199 - [WARNING] - Amount mismatch for order 17
+2026-04-07 19:39:56,199 - [INFO] - Reconciliation completed
+2026-04-07 19:39:56,510 - [INFO] - Low confidence: 42
+2026-04-07 19:39:56,510 - [INFO] - Missing payments: 0
+2026-04-07 19:39:56,512 - [INFO] - Results exported to report.csv
+2026-04-07 19:39:56,512 - [INFO] - Reconciliation process finished
+2026-04-07 19:53:46,727 - [INFO] - Starting reconciliation process
+2026-04-07 19:53:46,775 - [INFO] - Loaded 20 orders
+2026-04-07 19:53:46,857 - [INFO] - message='Request to Stripe api' method=get url=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775591026
+2026-04-07 19:53:47,750 - [INFO] - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775591026 response_code=200
+2026-04-07 19:53:47,760 - [INFO] - Loaded 21 payments from Stripe
+2026-04-07 19:53:47,761 - [INFO] - Reconciliation completed
+2026-04-07 19:53:48,089 - [INFO] - Low confidence: 1
+2026-04-07 19:53:48,089 - [INFO] - Missing payments: 0
+2026-04-07 19:53:48,091 - [INFO] - Results exported to report.csv
+2026-04-07 19:53:48,091 - [INFO] - Reconciliation process finished
+2026-04-07 20:41:17,982 - [INFO] - Starting reconciliation process
+2026-04-07 20:41:18,021 - [INFO] - Loaded 20 orders
+2026-04-07 20:41:18,102 - [INFO] - message='Request to Stripe api' method=get url=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775593878
+2026-04-07 20:41:19,207 - [INFO] - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775593878 response_code=200
+2026-04-07 20:41:19,218 - [INFO] - Loaded 20 payments from Stripe
+2026-04-07 20:41:19,219 - [WARNING] - Amount mismatch for order 5
+2026-04-07 20:41:19,219 - [WARNING] - Amount mismatch for order 13
+2026-04-07 20:41:19,219 - [WARNING] - Amount mismatch for order 14
+2026-04-07 20:41:19,219 - [WARNING] - Amount mismatch for order 15
+2026-04-07 20:41:19,219 - [WARNING] - Amount mismatch for order 18
+2026-04-07 20:41:19,219 - [INFO] - Reconciliation completed
+2026-04-07 20:41:19,219 - [INFO] - Low confidence: 0
+2026-04-07 20:41:19,219 - [INFO] - Missing payments: 0
+2026-04-07 20:41:19,220 - [INFO] - Results exported to report.csv
+2026-04-07 20:41:19,220 - [INFO] - Reconciliation process finished
+2026-04-07 20:48:00,429 - [INFO] - Starting reconciliation process
+2026-04-07 20:48:15,037 - [INFO] - Loaded 20 orders
+2026-04-07 20:48:24,241 - [INFO] - message='Request to Stripe api' method=get url=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775594301
+2026-04-07 20:48:25,227 - [INFO] - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents?limit=100&created[gte]=1775594301 response_code=200
+2026-04-07 20:48:28,272 - [INFO] - Loaded 20 payments from Stripe
+2026-04-07 23:24:54,822 - [WARNING] - Amount mismatch for order 5
+2026-04-07 23:24:54,827 - [WARNING] - Amount mismatch for order 13
+2026-04-07 23:24:54,827 - [WARNING] - Amount mismatch for order 14
+2026-04-07 23:24:54,827 - [WARNING] - Amount mismatch for order 15
+2026-04-07 23:24:54,827 - [WARNING] - Amount mismatch for order 18
+2026-04-07 23:24:54,827 - [INFO] - Reconciliation completed
+2026-04-07 23:24:54,828 - [INFO] - Low confidence: 0
+2026-04-07 23:24:54,828 - [INFO] - Missing payments: 0
+2026-04-07 23:24:54,829 - [INFO] - Results exported to report.csv
+2026-04-07 23:24:54,829 - [INFO] - Reconciliation process finished
