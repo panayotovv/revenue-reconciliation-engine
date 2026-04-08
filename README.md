@@ -47,3 +47,30 @@ Each match is assigned a confidence score based on:
 - Detects anomalies: missing orders, duplicate entries, unmatched payments
 - Sends **real-time Slack alerts** for critical issues
 - Configurable thresholds for alert severity
+
+## 🧩 Architecture
+
+1. **Data Ingestion** — Pull Stripe payments via API; load orders from DB or CSV
+2. **Normalization** — Standardize currency formats, timestamps, and IDs
+3. **Matching Engine** — Apply exact + heuristic matching logic
+4. **Scoring Engine** — Assign and rank confidence scores per match
+5. **Reconciliation Output** — Categorize results as Matched / Unmatched / Missing
+6. **Alert Dispatcher** — Send Slack notifications for critical issues
+
+## 🤝 Contributing
+
+Contributions are welcome! Please:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/my-improvement`)
+3. Commit your changes (`git commit -m 'Add fuzzy matching for phone numbers'`)
+4. Push to the branch (`git push origin feature/my-improvement`)
+5. Open a Pull Request
+
+Please open issues for bug reports or feature requests before submitting large PRs.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
